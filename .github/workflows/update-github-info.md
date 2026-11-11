@@ -46,7 +46,7 @@ safe-outputs:
    avoid duplicate stories or unsupported claims.
 4. If there are no meaningful new updates, leave the file unchanged and call
    `noop` with a brief explanation.
-5. Otherwise, use the `create-pull-request` safe output to open a pull request
-   for Mona to review. Include a concise summary, source links, and a note
+5. Otherwise, open a pull request for Mona to review using the
+   `create-pull-request` safe output. Include a concise summary, source links, and a note
    that Mona should review the changes before publication. Do not push
    directly to main, merge the pull request, or publish the site.
